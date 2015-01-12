@@ -1,0 +1,173 @@
+* 
+{ 
+    padding: 0px; 
+    margin: 0px; 
+} 
+  
+body 
+{ 
+    background-color: #1c1c1c;
+    font-family: "Lucida Console", "Lucida Sans Typewriter";
+} 
+  
+#container 
+{ 
+    width: 100%; 
+} 
+
+/* Login */
+
+#login
+{
+    margin-top: 150px;
+    width: 400px; 
+    height: 200px;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    color: white; 
+    background-color: #000; 
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#login h1 {
+    margin-top: 5px;
+    color: #e66f00;
+    font-size: 42px;
+}
+
+#form_submit {
+    visibility: hidden;
+	position: absolute;
+	left: -99999px;
+}
+
+.loginfield
+{
+    width: 300px;
+    height: 50px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #e66f00;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter";
+}
+
+/* Error Message */
+
+#errormsg {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 5px;
+    color: #FF0000;
+}
+
+/* Index */
+
+#content
+{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    width: 800px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    background-color: #000; 
+    border-radius: 50px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#content-header {
+    width: 760px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#content-header label {
+    margin-top: 5px;
+    color: #e66f00;
+    font-size: 42px;
+}
+
+#content-header input, #content-header select {
+    margin-top: -5px;
+	height: 38px;
+}
+
+#content-body {
+    color: #ff0000;
+    width: 760px;
+    padding-top: 25px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#content-body li {
+    color: #ff0000;
+    display: block;
+    width: 760;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 5px;
+}
+
+#content-body li:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+#content-footer {
+    width: 760px;
+    padding-top: 25px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#content-footer a {
+	text-decoration: none;
+}
+
+.button {
+	width: 175px;
+	height: 50px;
+	background-color: #e66f00;
+	color: #000;
+	border-radius: 15px;
+	border: 0px;
+    font-size: 24px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter";
+}
+
+.button:hover {
+	background-color: #b35600;
+	cursor: pointer;
+}
+
+#content h1 {
+    margin-top: 5px;
+    color: #e66f00;
+    font-size: 42px;
+}
+
+#content ul {
+    list-style: none;
+}
+
+.debug {
+    color: #fff;
+}
+
+.bad {
+    color: #FF0000;
+}

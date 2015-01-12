@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editjoke"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/editjoke"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editjoke_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editjoke_id" />
+
+    <EditText
+        android:id="@+id/editjoke_id_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8" 
+        android:hint="@string/editjoke_id">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/editjoke_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/editjoke_category" />
+
+    <Spinner
+        android:id="@+id/editjoke_category_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/editjoke_sub_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editjoke_sub_category" />
+
+    <EditText
+        android:id="@+id/editjoke_sub_category_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8" 
+        android:hint="@string/editjoke_sub_category">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editjoke_short_desc" />
+
+    <EditText
+        android:id="@+id/editjoke_short_desc_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8" 
+        android:hint="@string/editjoke_short_desc">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/editjoke_short_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editjoke_short_question" />
+
+    <EditText
+        android:id="@+id/editjoke_short_question_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8" 
+        android:hint="@string/editjoke_short_question">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/editjoke_short_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editjoke_short_answer" />
+
+    <EditText
+        android:id="@+id/editjoke_short_answer_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8" 
+        android:hint="@string/editjoke_short_answer">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/editjoke_short_monologue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editjoke_short_monologue" />
+
+    <EditText
+        android:id="@+id/editjoke_short_monologue_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8" 
+        android:hint="@string/editjoke_short_monologue">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  >
+
+        <Button
+            android:id="@+id/editjoke_update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/editjoke" >
+        </Button>
+
+        <Button
+            android:id="@+id/editjoke_reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/editjoke_reset" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

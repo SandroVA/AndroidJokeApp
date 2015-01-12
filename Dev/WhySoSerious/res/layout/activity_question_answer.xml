@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <TextView
+      android:id="@+id/questionAndAnswerTopic"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/questionAndAnswerTopic"
+      android:textSize="30sp"
+      android:textStyle="bold" />
+    
+ <TextView
+            android:id="@+id/questionanswer_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textSize="30sp" />
+ 
+  <TextView
+            android:id="@+id/questionanswer_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textSize="30sp"/>
+            <!-- Add the following line back in the make the answers invisible.
+         	Currently disabled for testing purposes.
+            android:visibility="gone" -->
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button android:text="@string/questionanswer_display_answer" 
+            android:id="@+id/questionanswer_display_answer_button" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+        </Button>
+        
+    </RelativeLayout>
+</LinearLayout>

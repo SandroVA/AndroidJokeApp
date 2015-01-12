@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PourquoisSiSerieux?</string>
+    
+    <string name="action_settings">Paramètres</string>
+    <string name="action_about">Apropos</string>
+    <string name="action_edit">Modifier</string>
+    <string name="action_delete">Supprimer</string>
+    
+    <string name="settings_general">Paramètres général de l\'application:</string>
+    <string name="settings_splash">Splash écran au démarrage</string>
+    <string name="settings_randomize">Aléatoire au démarrage</string>
+    <string name="settings_ellipsize">Ellipsize (&#8230;) longues blagues</string>
+    
+    <string name="settings_categories">Utilise les categorie à la recherche:</string>
+    <string name="settings_geek">Geek</string>
+    <string name="settings_holiday">Vacances</string>
+    <string name="settings_kids">Enfants</string>
+    <string name="settings_horror">Horreur</string>
+    <string name="settings_school">École</string>
+    
+    <string name="settings_update">Mise à jour</string>
+    <string name="settings_reset">Réinitialiser</string>
+    
+    <string name="settings_toggle_on">Oui</string>
+    <string name="settings_toggle_off">Non</string>
+    
+    
+    <string name="about_team">Équipe Viking</string>
+    <string name="about_author1">Christopher Reid</string>
+    <string name="about_author2">Alessandro Rodi</string>
+    <string name="about_author3">Sandro Victoria-Arena</string>
+    
+    <string name="addjoke_addjoke">Ajouter Joke</string>
+    <string name="addjoke_category">Catégorie</string>
+    <string name="addjoke_sub_category">Sous-catégorie</string>
+    <string name="addjoke_short_desc">Blague Description courte</string>
+    <string name="addjoke_short_question">Question (Type 1 Seulement)</string>
+    <string name="addjoke_short_answer">Réponse (Type 1 Seulement)</string>
+    <string name="addjoke_short_monologue">Texte Monologue (Type 2 Seulement)</string>
+    <string name="addjoke_submit">Envoyer</string>
+    <string name="addjoke_reset">Réinitialiser</string>
+    <string name="addjoke_jokeType">Type Joke</string>
+    
+    <string name="editjoke">Mise à jour Joke</string>
+    <string name="editjoke_category">Catégorie</string>
+    <string name="editjoke_sub_category">Sous-catégorie</string>
+    <string name="editjoke_short_desc">Blague Description courte</string>
+    <string name="editjoke_short_question">Question (Type 1 Seulement)</string>
+    <string name="editjoke_short_answer">Réponse (Type 1 Seulement)</string>
+    <string name="editjoke_short_monologue">Texte Monologue (Type 2 Seulement)</string>
+    <string name="editjoke_update">Mise à jour</string>
+    <string name="editjoke_reset">Réinitialiser</string>
+    <string name="editjoke_jokeType">Type Joke</string>
+    
+    <string name="searchjoke">Rechercher Joke</string>
+    <string name="searchjoke_category">Catégorie</string>
+    <string name="searchjoke_sub_category">Sous-catégorie</string>
+    <string name="searchjoke_short_desc">Blague Description courte</string>
+    <string name="searchjoke_search">Rechercher</string>
+    <string name="searchjoke_reset">Réinitialiser</string>
+    <string name="searchjoke_jokeType">Type Joke</string>
+    
+    <string name="websearch">Rechercher sur le web</string>
+    <string name="websearch_category">Catégorie</string>
+    <string name="websearch_sub_category">Sous-catégorie</string>
+    <string name="websearch_short_desc">Blague Description courte</string>
+    <string name="websearch_search">Rechercher</string>
+    <string name="websearch_reset">Réinitialiser</string>
+    <string name="websearch_jokeType">Type Joke</string>
+    
+    <string name="monologue_next_Line">Cliquez pour afficher prochaine ligne</string>
+    <string name="monologueTopic">Monologue</string>
+    <string name="monologue_add_to_dB_button">Ajouter à SqLite DB</string>
+    
+    <string name="questionanswer_display_answer">Appuyez sur pour afficher la réponse.</string>
+    <string name="questionAndAnswerTopic">Questions et Réponses</string>
+    <string name="questionanswer_add_to_dB_button">Ajouter à SqLite DB</string>
+    
+    <string name="imagejokeTopic">Image Joke</string>
+    <string name="imagejokeDescription">Image Joke</string>
+    <string name="imagejoke_add_to_dB_button">Ajouter à SqLite DB</string>
+    
+    <string name="databasestatus_status">Base de données Statut</string>
+    <string name="databasestatus_first">Première blague de dépôt:</string>
+    <string name="databasestatus_last">Plus récente blague de dépôt:</string>
+    <string name="databasestatus_categories">Catégories:</string>
+
+    <string name="main_addjoke">Ajouter Joke</string>
+    <string name="main_dbstatus">DB Statut</string>
+    <string name="main_web">Web</string>
+    <string name="main_search">Rechercher</string>
+    <string name="main_randomJokes">Faire voire des blague Aléatoire</string>
+           
+    <string name="geeklabel">Geek: </string>
+    <string name="holidayLabel">Vacances: </string>
+    <string name="kidsLabel">Enfants: </string>
+    
+    <string name="horrorLabel">Horreur: </string>
+	<string name="schoolLabel">École: </string>
+</resources>

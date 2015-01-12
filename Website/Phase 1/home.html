@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<head>
+	<title> PHP Phase 1 </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript"> 
+
+		var x;
+
+		 function changecolors() {
+			 x = 1;
+			 setInterval(change, 100);
+		 }
+
+		 function change() {
+			 if(x == 1) {
+				 color = "#000";
+				 x = 2;
+			 } else {
+				 color = "#111";
+				 x = 1;
+			 }
+
+			 document.body.style.background = color;
+		 }
+	</script>
+	
+</head>
+
+<body onload="changecolors()">
+
+	<div id="container">
+	
+		<div id="header">
+			<h1>Joke Form</h1>
+		</div>
+		
+		<div id="content">
+			<form name="jokeform" method="post" action="handleForm.php">
+			
+				<label for="_id">ID:</label>
+				<input type="text" name="id">
+				
+				<br/>
+				
+				
+				<label for="category">Category:</label>
+				<select name="category">
+					<option value="Geek">Geek</option>
+					<option value="Holiday">Holiday</option>
+					<option value="Kids">Kids</option>
+					<option value="Horror">Horror</option>
+					<option value="School">School</option>
+				</select>
+				
+				<br/>
+								
+				<label for="s_category">Subcategory:</label>
+				<select name="s_category">
+					<option value="Science">Science</option>
+					<option value="Computer Science">Computer Science</option>
+					<option value="Halloween">Halloween</option>
+					<option value="Thanksgiving">Thanksgiving</option>
+				</select>
+								
+				<br/>
+			
+				<label for="joketype">Joke Type:</label>
+				<select name="joketype">
+					<option value="1">Question & Answer</option>
+					<option value="2">Monologue</option>
+				</select>
+					
+				<br/>
+				
+			
+				<label for="s_description">Joke Description:</label>
+				<input type="text" name="s_description">
+				
+				<br/>
+			
+			
+				<textarea name="question_text" placeholder="(Q&A ONLY) Insert question here." maxlength="200" rows="4" cols="50" ></textarea>
+				
+				<br/>
+				
+				<textarea name="answer_text" placeholder="(Q&A ONLY) Insert answer here." maxlength="200" rows="4" cols="50" ></textarea>
+					
+				<br/>
+				
+				<textarea name="monologue_text" placeholder="(MONOLOGUE ONLY)Insert monologue text here." maxlength="1000" rows="6" cols="50"></textarea>
+				
+				<br/>
+				
+				
+				<input type="submit" value="Insert" name = "insert" class="button">
+				<input type="submit" value="Update" name ="update"  class="button">
+				<input type="submit" value="Delete" name ="delete" class="button">
+				
+				<br/>
+				
+				<input type="submit" value="Display joke by ID" name = "displayJokeDetailById" class="button">
+				<input type="submit" value="Search by category" name = "displayJokesByCategory" class="button">
+			
+			
+				<br/>
+				
+				<input type="reset" value="Reset" class="button">
+			
+			</form>
+		</div>
+	
+	</div>
+	
+	
+</body>

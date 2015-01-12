@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamviking.dev.whysoserious"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.teamviking.dev.whysoserious.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.AboutActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.AddJokeActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.DatabaseStatusActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.EditJokeActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.MonologueActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.QuestionAnswerActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.SettingsActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.ShowJokeActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.SearchJokeActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.SearchResultActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.WebSearchActivity" >
+        </activity>
+        <activity android:name="com.teamviking.dev.whysoserious.WebResultActivity" >
+        </activity>
+        <activity
+            android:name="com.teamviking.dev.whysoserious.ShowWebJokeActivity"
+            android:label="@string/title_activity_show_web_joke" >
+        </activity>
+    </application>
+
+</manifest>

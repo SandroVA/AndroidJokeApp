@@ -1,0 +1,63 @@
+* 
+{ 
+    padding: 0px; 
+    margin: 0px; 
+} 
+  
+body 
+{ 
+    background-color: #000000; 
+} 
+  
+#container 
+{ 
+    margin-top: 50px; 
+    width: 100%; 
+} 
+  
+#header, #content 
+{ 
+    width: 600px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    color: white; 
+    background-color: #000; 
+    border-left: 1px #fff dashed; 
+    border-right: 1px #fff dashed; 
+} 
+  
+#header 
+{ 
+    text-align: center; 
+    border-top: 1px #fff dashed; 
+} 
+  
+#content 
+{ 
+    text-align: center; 
+    border-bottom: 1px #fff dashed; 
+  
+} 
+      
+textarea 
+{ 
+    resize: none; 
+    margin: 5px; 
+} 
+  
+label, input, select 
+{ 
+    width: 175px; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+} 
+  
+select 
+{ 
+    text-align: left; 
+} 
+  
+.button 
+{ 
+    width: 135px; 
+}
